@@ -1,0 +1,64 @@
+.dark-theme {
+  background-color: #333 !important;
+  color: #fff !important;
+}  
+
+.light-theme {
+  background-color: #fff !important;
+  color: #333 !important;
+}  
+
+
+
+.nav-link.active {
+  font-weight: bold;
+  color: #FFD700 !important;
+}
+
+.navbar-light .navbar-toggler-icon {
+  /* fekete */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Fehér hamburger ikon sötét témához */
+.navbar-dark .navbar-toggler-icon {
+  /* fehér */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.App {
+  text-align: center;
+}  
+
+/* ----------------------- */
+
+.icon-circle {
+  width: 100px;
+  height: 100px;
+  background-color: #FFD700;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px auto;
+}
+
+.icon-circle i {
+  font-size: 40px;
+  color: white;
+}
+
+/* .service h4 {
+  /* margin-top: 20px; 
+} */
+
+.service p {
+  color: #666;
+}
+
+.section-title {
+  z-index: 1; /* Alacsonyabb érték a tartalomra */
+  position: relative; /* Így nem lép ki a normál flow-ból */
+  /* margin-top: 10px; */
+}
+
