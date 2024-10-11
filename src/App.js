@@ -1,4 +1,5 @@
 import './App.css';
+import React, { useEffect } from 'react';
 import AboutMe from './components/AboutMe';
 import WhatIDo from './components/WhatIDo';
 import Portfolio from './components/Portfolio';
@@ -7,6 +8,10 @@ import { ThemeProvider } from './context/ThemeContext';
 import PortfolioNavbar from './components/Navbar';
 
 function App() {
+  useEffect(() => {
+    document.title = "Komornik Antal";
+  }, []);
+
   return (
     <ThemeProvider>
       <div className="App" data-bs-theme="dark">
